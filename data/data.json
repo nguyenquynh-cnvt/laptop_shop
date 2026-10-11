@@ -1,0 +1,224 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "RAM laptop",
+      "description": "Bộ nhớ RAM DDR4/DDR5 cho laptop"
+    },
+    {
+      "id": 2,
+      "name": "Ổ cứng SSD",
+      "description": "Ổ cứng SSD SATA, NVMe M.2"
+    },
+    {
+      "id": 3,
+      "name": "Pin laptop",
+      "description": "Pin thay thế chính hãng và tương thích"
+    },
+    {
+      "id": 4,
+      "name": "Sạc - Adapter",
+      "description": "Sạc laptop các hãng Dell, HP, Asus, Lenovo"
+    },
+    {
+      "id": 5,
+      "name": "Bàn phím",
+      "description": "Bàn phím thay thế cho laptop"
+    },
+    {
+      "id": 6,
+      "name": "Màn hình laptop",
+      "description": "Màn hình LED thay thế các kích thước"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "RAM Kingston Fury 8GB DDR4 3200MHz SODIMM",
+      "brand": "Kingston",
+      "price": 520000,
+      "stock": 50,
+      "image": "images/p1.svg",
+      "description": "RAM laptop DDR4 dung lượng 8GB, bus 3200MHz, bảo hành 36 tháng."
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "RAM Crucial 16GB DDR4 3200MHz SODIMM",
+      "brand": "Crucial",
+      "price": 890000,
+      "stock": 40,
+      "image": "images/p2.svg",
+      "description": "RAM laptop DDR4 16GB, hiệu năng ổn định cho làm việc đa nhiệm."
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "name": "RAM Samsung 16GB DDR5 4800MHz SODIMM",
+      "brand": "Samsung",
+      "price": 1450000,
+      "stock": 25,
+      "image": "images/p3.svg",
+      "description": "RAM DDR5 cho các dòng laptop đời mới, tiết kiệm điện."
+    },
+    {
+      "id": 4,
+      "category_id": 2,
+      "name": "SSD Samsung 980 NVMe M.2 500GB",
+      "brand": "Samsung",
+      "price": 1250000,
+      "stock": 35,
+      "image": "images/p4.svg",
+      "description": "SSD NVMe PCIe 3.0, tốc độ đọc tối đa 3100MB/s."
+    },
+    {
+      "id": 5,
+      "category_id": 2,
+      "name": "SSD Kingston NV2 1TB NVMe",
+      "brand": "Kingston",
+      "price": 1890000,
+      "stock": 30,
+      "image": "images/p5.svg",
+      "description": "SSD NVMe PCIe 4.0 dung lượng 1TB, giá tốt."
+    },
+    {
+      "id": 6,
+      "category_id": 2,
+      "name": "SSD WD Blue SA510 SATA 480GB",
+      "brand": "Western Digital",
+      "price": 790000,
+      "stock": 45,
+      "image": "images/p6.svg",
+      "description": "SSD SATA 2.5 inch phù hợp nâng cấp laptop đời cũ."
+    },
+    {
+      "id": 7,
+      "category_id": 3,
+      "name": "Pin Dell Latitude E5470 chính hãng",
+      "brand": "Dell",
+      "price": 980000,
+      "stock": 20,
+      "image": "images/p7.svg",
+      "description": "Pin 4 cell dung lượng 62Wh, bảo hành 12 tháng."
+    },
+    {
+      "id": 8,
+      "category_id": 3,
+      "name": "Pin HP Pavilion 14 tương thích",
+      "brand": "HP",
+      "price": 650000,
+      "stock": 18,
+      "image": "images/p8.svg",
+      "description": "Pin tương thích dùng cho HP Pavilion 14, cell chất lượng cao."
+    },
+    {
+      "id": 9,
+      "category_id": 4,
+      "name": "Sạc Dell 65W đầu kim nhỏ",
+      "brand": "Dell",
+      "price": 350000,
+      "stock": 60,
+      "image": "images/p9.svg",
+      "description": "Adapter 19.5V - 3.34A, đầu 4.5mm."
+    },
+    {
+      "id": 10,
+      "category_id": 4,
+      "name": "Sạc Lenovo 65W đầu USB-C",
+      "brand": "Lenovo",
+      "price": 420000,
+      "stock": 40,
+      "image": "images/p10.svg",
+      "description": "Sạc Type-C PD 65W, dùng cho nhiều dòng ThinkPad."
+    },
+    {
+      "id": 11,
+      "category_id": 5,
+      "name": "Bàn phím Asus VivoBook X441",
+      "brand": "Asus",
+      "price": 280000,
+      "stock": 22,
+      "image": "images/p11.svg",
+      "description": "Bàn phím thay thế cho Asus X441, layout tiêu chuẩn."
+    },
+    {
+      "id": 12,
+      "category_id": 6,
+      "name": "Màn hình laptop 15.6 inch Full HD 30 pin",
+      "brand": "LG",
+      "price": 1650000,
+      "stock": 12,
+      "image": "images/p12.svg",
+      "description": "Màn hình IPS Full HD 1920x1080, chuẩn 30 pin eDP."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "full_name": "Quản trị viên",
+      "email": "admin@laptopshop.vn",
+      "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "phone": "0900000000",
+      "address": "Việt Trì, Phú Thọ",
+      "role": "admin",
+      "created_at": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "full_name": "Nguyễn Văn Khách",
+      "email": "khach@example.com",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "phone": "0912345678",
+      "address": "Hà Nội",
+      "role": "customer",
+      "created_at": "2026-09-02T09:30:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "receiver_name": "Nguyễn Văn Khách",
+      "phone": "0912345678",
+      "address": "Hà Nội",
+      "note": "Giao giờ hành chính",
+      "total": 1410000,
+      "status": "done",
+      "created_at": "2026-09-20T10:15:00.000Z",
+      "items": [
+        {
+          "product_id": 1,
+          "product_name": "RAM Kingston Fury 8GB DDR4 3200MHz SODIMM",
+          "price": 520000,
+          "quantity": 1
+        },
+        {
+          "product_id": 2,
+          "product_name": "RAM Crucial 16GB DDR4 3200MHz SODIMM",
+          "price": 890000,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "receiver_name": "Nguyễn Văn Khách",
+      "phone": "0912345678",
+      "address": "Hà Nội",
+      "note": "",
+      "total": 700000,
+      "status": "pending",
+      "created_at": "2026-10-05T14:40:00.000Z",
+      "items": [
+        {
+          "product_id": 9,
+          "product_name": "Sạc Dell 65W đầu kim nhỏ",
+          "price": 350000,
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}
